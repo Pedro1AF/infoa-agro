@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos de Preços</title>
+    <link rel="stylesheet" href="styles/style3.css">
+   <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav>
+        <div class="logo">Info Agro</div>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="index2.html">Preços</a></li>
+            <li><a href="index3.html">Gráficos</a></li>
+            <li><a href="index4.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo dos Gráficos -->
+    <div class="content">
+        <h2 onclick="toggleGrafico('grafico_banana')">Banana</h2>
+        <div id="grafico_banana" class="grafico">
+            <img src="https://lh5.googleusercontent.com/proxy/GdeqH-qN0Qt-NtY3IIfe6bLhf5osiwvVU7QT3KsH8O_hQMjZLtqI-yTPhytfdVRdAYuu-Jy4h05YvATJ2ZcpBt0NrGT7X4AP2Ns" alt="Banana">
+        </div>
+
+        <h2 onclick="toggleGrafico('grafico_maca')">Maçã</h2>
+        <div id="grafico_maca" class="grafico">
+            <img src="https://www.hfbrasil.org.br/upload/kceditor/images/gr%c3%a1fico_ma%c3%a7%c3%a3.png" alt="Gráfico de Preço da Maçã">
+        </div>
+
+        <h2 onclick="toggleGrafico('grafico_laranja')">Laranja</h2>
+        <div id="grafico_laranja" class="grafico">
+            <img src="https://cdn.noticiasagricolas.com.br/dbimagens/thumbs/800x2000/oscilacao-do-indicador-da-laranja-in-natura-nos-ul-P1Bml.png" alt="Gráfico de Preço da Laranja">
+        </div>
+
+        <h2 onclick="toggleGrafico('grafico_manga')">Manga</h2>
+        <div id="grafico_manga" class="grafico">
+            <img src="https://www.hfbrasil.org.br/upload/kceditor/images/manga.PNG" alt="Gráfico de Preço da Manga">
+        </div>
+
+        <h2 onclick="toggleGrafico('grafico_uva')">Uva</h2>
+        <div id="grafico_uva" class="grafico">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8qOjeMtCIN1e41ystYwkuFIG_apSK1vbY_A&s" alt="Gráfico de Preço da Uva">
+        </div>
+
+        <h2 onclick="toggleGrafico('grafico_morango')">Morango</h2>
+        <div id="grafico_morango" class="grafico">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHG832HVCCfLe_BM5Xr91BIoxcXc4CpDf5Kw&s" alt="Gráfico de Preço do Morango">
+        </div>
+
+        <h2 onclick="toggleGrafico('grafico_abacaxi')">Abacaxi</h2>
+        <div id="grafico_abacaxi" class="grafico">
+            <img src="https://media.licdn.com/dms/image/C4E12AQEqU-5c_dkdDA/article-inline_image-shrink_400_744/0/1520606852097?e=1724889600&v=beta&t=KgR3VVggp09E0pF5gwumwCyFAClcFBLEJOMpR41Ts9U" alt="Gráfico de Preço do Abacaxi">
+        </div>
+
+        <h2 onclick="toggleGrafico('grafico_pera')">Cebola</h2>
+        <div id="grafico_pera" class="grafico">
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/newr7/6TN2Q3PQMJNOZNTSAFKZXP5H5U.png" alt="Gráfico de Preço da Pêra">
+        </div>
+
+        <h2 onclick="toggleGrafico('grafico_kiwi')">Tomate</h2>
+        <div id="grafico_kiwi" class="grafico">
+            <img src="https://comunica.ufu.br/sites/comunica.ufu.br/files/conteudo/noticia/imagem_destaque_ipc_dezembro_2022.png" alt="Gráfico de Preço do Kiwi">
+        </div>
+
+        <h2 onclick="toggleGrafico('grafico_melancia')">Cenoura</h2>
+        <div id="grafico_melancia" class="grafico">
+            <img src="https://opara.nyc3.cdn.digitaloceanspaces.com/ojoio/uploads/2022/09/grafico-cenoura-inflacao-2-1024x571.jpg" alt="Gráfico de Preço da Melancia">
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</html>
